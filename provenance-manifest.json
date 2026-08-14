@@ -1,0 +1,157 @@
+{
+  "release": "2026.08.14-r4",
+  "domain": "https://asulabs.uk",
+  "generated": "2026-08-14",
+  "files": [
+    {
+      "path": ".well-known/security.txt",
+      "sha256": "8c2cae8d9e345407a4dd18c2e0e55174aac724b76f704eb9a33b5005a7e5ad0c",
+      "bytes": 161
+    },
+    {
+      "path": "404.html",
+      "sha256": "7cb4faa3e4e274689b18dcabcb7459ced9598de6208b49e65823fa4a34ab7926",
+      "bytes": 2382
+    },
+    {
+      "path": "CNAME",
+      "sha256": "ec10ed673aa41b1ac7eec4d3dfce86a25f4c3577aae3172483942371e0acc072",
+      "bytes": 11
+    },
+    {
+      "path": "README.md",
+      "sha256": "e6c01bcee3bbab4a637b9da4349ed81c42bd671a19804e6722f60f2fb5fae8d6",
+      "bytes": 1618
+    },
+    {
+      "path": "VERSION.txt",
+      "sha256": "a8982c9aa268c312712227ebd66360ea7ed6047bf150ddd87406deb4a4730ba0",
+      "bytes": 192
+    },
+    {
+      "path": "about.html",
+      "sha256": "f4f407a209b526a7a6dd3fd1116b51cbf5369c562cbac9f624c35b044f0bf39d",
+      "bytes": 4573
+    },
+    {
+      "path": "assets/asu-labs-logo.svg",
+      "sha256": "f106bd785232b29fe46c3dd01a32b592d3ab27e21eef52f7f32dcf493c8d95df",
+      "bytes": 709
+    },
+    {
+      "path": "assets/favicon.svg",
+      "sha256": "d8ad9e3cce8375caa45d8d66a047823caa9dc6cf3c8f8891ecb054a8cc25055f",
+      "bytes": 372
+    },
+    {
+      "path": "confidentiality.html",
+      "sha256": "8070024d4bd0ba6ecd9dd1f4339035a37cce28590eeb03deea16b8f1a5bc398c",
+      "bytes": 4099
+    },
+    {
+      "path": "contact.html",
+      "sha256": "7afbc6ffc8a09ed8b7076db1010000aca61f003d476271bd3a46c5aaff777f71",
+      "bytes": 4324
+    },
+    {
+      "path": "corrections.html",
+      "sha256": "88a2606c63fb037e1af2fadb8eb78760140cb53636f819e120549dacf66acf57",
+      "bytes": 3660
+    },
+    {
+      "path": "evidence.html",
+      "sha256": "1e61a99b2ea35570c4ae1a2aefceb1208ad350409d152f2934f7de8e852e3450",
+      "bytes": 5112
+    },
+    {
+      "path": "governance.html",
+      "sha256": "2a4bd61140b20203be1677ae3d7f64892853a78ef20fc4d15b1187f8ab853d37",
+      "bytes": 4880
+    },
+    {
+      "path": "independent-study.html",
+      "sha256": "3d7d43ed74c3052f7a87b5a865680a3ecbef7efef5638e9bef27c053a3b9d0f4",
+      "bytes": 11574
+    },
+    {
+      "path": "index.html",
+      "sha256": "cc13c374642f3514e42745d1385a3bd0f2feeb21f849517c871e260b07aa88ba",
+      "bytes": 7354
+    },
+    {
+      "path": "ip-record.html",
+      "sha256": "f06958c954b6da6fc2f3259df789d46daa18fa1e9773b399b7ec2866ac5d017a",
+      "bytes": 5118
+    },
+    {
+      "path": "legal-notice.html",
+      "sha256": "cf1018d3d97bef1e3f67cfc0581c9c77c4d62ed93807340895d6ff0e496a8078",
+      "bytes": 5567
+    },
+    {
+      "path": "origin.html",
+      "sha256": "10196295f40225fffb872c1a629616034c320cd87b88cf7c2be4e3e7530b4c74",
+      "bytes": 5088
+    },
+    {
+      "path": "privacy.html",
+      "sha256": "e433486c85bc6b03c8f5aac9c34ea20efcd84acf5dc0b63a8dad8caed6f986ad",
+      "bytes": 3933
+    },
+    {
+      "path": "projects.html",
+      "sha256": "a05b55655b775dcfb95da861820d36492823070b7337e394e72ae90f85f140c9",
+      "bytes": 4262
+    },
+    {
+      "path": "records.html",
+      "sha256": "38844581be72d6a1c67cff1342c6f3f5edb98f29c6b72cae67dbe2d8bdc13ca1",
+      "bytes": 3811
+    },
+    {
+      "path": "release.html",
+      "sha256": "b7307265f5399a3dfd444e4183f6570ec182d70169a46dab3d08c56f5fdbd4e1",
+      "bytes": 3856
+    },
+    {
+      "path": "research-safety.html",
+      "sha256": "b1c1963ce866ad91337fbb0e1a6072006f24a7f3a28b15be03311a23c4e4b86b",
+      "bytes": 13451
+    },
+    {
+      "path": "research.html",
+      "sha256": "4f31203aed05efd289f8ba167febf8e08faaee7bb1a0a5f930b4cfa2371573b4",
+      "bytes": 4421
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "4b7de7e4e0629016b6e7e07d4c80b51a333a495a07604bb3c011aaaa2687c9d3",
+      "bytes": 63
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "9c9e19d1c682b4381c9188d3b150aee942a070762490956badae59ab1e67a2be",
+      "bytes": 1206
+    },
+    {
+      "path": "solicitor-review.html",
+      "sha256": "78936abc0557b29a550d0815a0390bb7ea5f9d763e9268cd888848192427d600",
+      "bytes": 4514
+    },
+    {
+      "path": "studies.html",
+      "sha256": "8d8b88b656317a2a74c9bb7e0a161a088b5846b384d0b7e949f8217c9060413a",
+      "bytes": 6229
+    },
+    {
+      "path": "styles.css",
+      "sha256": "f9a16599a64e80bc76eac634c5be00263e2dc7aef64f076982d6928038979130",
+      "bytes": 7133
+    },
+    {
+      "path": "terms.html",
+      "sha256": "054ff20d21716dae52a2e719af835fce2d75ae5f367d41dc5939a969e7030d97",
+      "bytes": 3832
+    }
+  ]
+}
