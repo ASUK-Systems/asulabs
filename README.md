@@ -1,29 +1,21 @@
-# ASU Labs — final clean public build
+# ASU Labs — Energetic Materials Research Addition
 
-Release: **2026.08.14-r4**
+## Files
 
-Canonical public domain: **https://asulabs.uk**
+- `energetic-materials.html` — public-facing ASU Labs page. Add it to the repository root beside the existing HTML pages.
+- `docs/energetic-materials-research-scope.md` — source/repository policy record.
+- `INSTALL-NOTES.md` — simple deployment notes.
 
-This package is a static GitHub Pages-ready public research and documentation hub for ASU LTD / ASU Labs.
+## Existing-site compatibility
 
-## Included
-- research, studies, evidence and provenance framework
-- governance and professional-review pathway
-- IP and confidentiality boundaries
-- corrections and release records
-- research safety and hazardous-materials governance
-- independent-study framework covering chemistry, psychology, phycology and connected disciplines
-- UK-focused links to current official guidance
-- privacy, terms, legal notice and security.txt
-- self-contained SVG branding and favicon
+The HTML page uses the existing ASU Labs `styles.css` and `assets/favicon.svg` paths. It does not replace any existing file.
 
-## Important legal boundary
-The website is evidence and governance infrastructure, not a licence, permit, accreditation, professional qualification, legal opinion or immunity from liability. It cannot authorise hazardous work, regulated research, clinical practice or use of controlled substances.
+After adding the files, commit them to `main`.
 
-For higher-risk work, the operator should establish the applicable law, material identity, competent supervision, suitable premises, controls, emergency arrangements, insurance, waste route and any licence/permission before proceeding.
+## Optional navigation
 
-## IP boundary
-Do not rely on public publication as a substitute for confidentiality or IP protection. Potentially patentable material should be reviewed before public disclosure. See the UK IPO links on the IP record page.
+The page can be linked from the existing `research-safety.html` or main navigation as:
 
-## Deployment
-Upload the contents of this directory to a new GitHub repository and configure GitHub Pages for the repository. The root `CNAME` is `asulabs.uk`.
+`<a href="energetic-materials.html">Energetic Materials</a>`
+
+No existing file needs to be overwritten for the page itself to work.
