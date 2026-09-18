@@ -1,8 +1,8 @@
 {
-  "release": "2026.09.18-r2",
+  "release": "2026.09.18-r3",
   "domain": "https://asulabs.uk",
   "generated": "2026-09-18",
-  "scope": "Stage III additive public release",
+  "scope": "Complete additive website release with corrected domain and browser icon set",
   "files": [
     {
       "path": ".github/workflows/validate.yml",
@@ -16,8 +16,8 @@
     },
     {
       "path": "404.html",
-      "sha256": "9d9d941fdc191bbfa3641134ffddec0793fb35bea44694b3283b6474db5eb718",
-      "bytes": 2855
+      "sha256": "b717b72d1568afa4fa31158694d6ddffca8395092750b657e2f238136796f396",
+      "bytes": 3173
     },
     {
       "path": "CHANGELOG.md",
@@ -46,8 +46,23 @@
     },
     {
       "path": "about.html",
-      "sha256": "edac8b510699f45e0643bf7bc48b1087f0ef39401122448a66b8732b88ab19c6",
-      "bytes": 5883
+      "sha256": "580355f98711d74863e1ba38ec6304e23f7161fb2054cc3ef0ef32941048e904",
+      "bytes": 6205
+    },
+    {
+      "path": "android-chrome-192x192.png",
+      "sha256": "07f81af169c959d20ccf477664231af22d3081f0bd7cecf78eb06ae16235968b",
+      "bytes": 6340
+    },
+    {
+      "path": "android-chrome-512x512.png",
+      "sha256": "99d6ab660dd1282ecb8c2bb931c85dbc932cf67f6037d45616eb0ffa5ea752d7",
+      "bytes": 20356
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "sha256": "5b8d72712a627c3f1aa1b47dee969d06c8f1cd1b82e830c30b9248550b89ca64",
+      "bytes": 5930
     },
     {
       "path": "assets/asu-labs-logo.svg",
@@ -66,8 +81,8 @@
     },
     {
       "path": "asu-igc-001-protocol.html",
-      "sha256": "7258c3729f5769fc3c8cd88d7e3b9efae3c5807717866361b38ebb8ced9f252d",
-      "bytes": 6374
+      "sha256": "618df95400f0109af9756e1b334d0ee065a3de41ff5d97f4bc5f71a4cb8eb503",
+      "bytes": 6696
     },
     {
       "path": "asu-igc-001.css",
@@ -76,23 +91,23 @@
     },
     {
       "path": "confidentiality.html",
-      "sha256": "8ef1591ecda025f52ba6ead0abb8dc47a6487e5066793f1f7a6ab8c28ce19b8e",
-      "bytes": 5415
+      "sha256": "b200e2630b05b32ee7258d67baacefaf61d5110b146bf89397adbee957ebe60d",
+      "bytes": 5737
     },
     {
       "path": "contact.html",
-      "sha256": "cd056d2af95f5ef5b62793446ca5e681d608a1b64fe81038236b4892989d05f2",
-      "bytes": 5617
+      "sha256": "c1ec063d044e19c7fc0b3fb39b7fb865531887f49ee1049d758dbbfedd147f80",
+      "bytes": 5939
     },
     {
       "path": "controlled-register.html",
-      "sha256": "737eb39843774b8859a93e8ef6dd0d001f462ea43fa9fc78519aabfa57b0988b",
-      "bytes": 3875
+      "sha256": "4ff89ebd29c53143f5dc888bdc217af52a1fc96a868b5e78915e1e739e365e1d",
+      "bytes": 4197
     },
     {
       "path": "corrections.html",
-      "sha256": "09b30f0be42ff2498f4d4bb754a7e691661b07ae0beeaf5dbb55abb9039cb5b5",
-      "bytes": 4968
+      "sha256": "057bc1f5d25d38a2365b40db2bb6ed6417a44e20097e697a530ac8173f354ab4",
+      "bytes": 5290
     },
     {
       "path": "downloads/ASU_IGC_001_Research_Protocol.pdf",
@@ -101,63 +116,78 @@
     },
     {
       "path": "evidence-map.html",
-      "sha256": "d8618fceff1a84278af8ea46db26b22ff9672fdd8fa8f42ffde9a8fa7dbce651",
-      "bytes": 4203
+      "sha256": "27ac61cbd2ba48423fa078762d54dc3395bb232260a365324b09d28ff53d5f6c",
+      "bytes": 4525
     },
     {
       "path": "evidence.html",
-      "sha256": "1cccb19a4da5b5648f2c51f2ebedc605321897ce5d2f2b1a623e364df4b76bdf",
-      "bytes": 6427
+      "sha256": "650c7d1505a21027baf536d40db835a18f89df8d3ada2e21e7d3428df8226b01",
+      "bytes": 6749
     },
     {
       "path": "external-review.html",
-      "sha256": "cef9cf0b2c70416cc9b347a2bc75a60525f552aec4a2af838f185674fac14f1a",
-      "bytes": 3136
+      "sha256": "7c85761551f35bb31facede0bea5fe5a9ca1ba65c4182acc89ea360f27e340dd",
+      "bytes": 3458
+    },
+    {
+      "path": "favicon-16x16.png",
+      "sha256": "8c635943904716203883568aa2cdc31826d74c2c74ffd91f8c589955cdfa94e2",
+      "bytes": 468
+    },
+    {
+      "path": "favicon-32x32.png",
+      "sha256": "6a35989da5a8eba4cad0823c67ba56be3ad6c0425894ad471b31f61ebfc7bf13",
+      "bytes": 980
+    },
+    {
+      "path": "favicon.ico",
+      "sha256": "7080712db60ff1c0348084eac76123898745f73413b928c4c66f37f2f3b234ab",
+      "bytes": 5430
     },
     {
       "path": "governance.html",
-      "sha256": "9ff875e7384b8c4163efdd6f9e24ceb3d93f855d41ecb01095a8ff1693d4d3ac",
-      "bytes": 6186
+      "sha256": "66c1e8576b701112ec0bf71b6faea60b23d35a4e61a375d8faa2e4f9660969ac",
+      "bytes": 6508
     },
     {
       "path": "independent-study.html",
-      "sha256": "4c77a6f572c8074dfeeae9cdb91b7bcb06e353554afb56bdf17bf7d3f62d7ac6",
-      "bytes": 13026
+      "sha256": "0d51f91dc67cba434d6436bad9492dcebeb84ac4fd235a0a73115ea1ae2518c0",
+      "bytes": 13348
     },
     {
       "path": "index.html",
-      "sha256": "6a35027da38048a2e4fd41bb8f11efacfebfce2294f1a4e9a5eaeeeaf4f01c99",
-      "bytes": 9630
+      "sha256": "c9684656c1ffd15d53f55dc9fb0c401cb68c7eb4a1a2f1d2e5e4583736167829",
+      "bytes": 9956
     },
     {
       "path": "ip-record.html",
-      "sha256": "8d3e61c92a375d6e2fd1ff057073a50e4af6f7c4a08b1c2a94e8e850e1191346",
-      "bytes": 6422
+      "sha256": "e61e38d3ecac07b491332fb8a983d5868cb1c6f96253580e02d53379ce41b6e8",
+      "bytes": 6744
     },
     {
       "path": "legal-notice.html",
-      "sha256": "14cfb77ff89c8fb1fc865f52de44c30253d1b2e377a3c5afa37ecfe8e18da622",
-      "bytes": 6877
+      "sha256": "6e6c9fd9f3729e9e87f94a20c3fe02bfeb58304795ac220e2f76f371e17093ac",
+      "bytes": 7199
     },
     {
       "path": "literature-review.html",
-      "sha256": "d96e930f15c172217aee73b485a8f8eac60e544c093bd95ce09185fa139fe28f",
-      "bytes": 4161
+      "sha256": "6e31492d58e6edd6db4ee2f877524a8f7c367f0234ef5942a81ecc6f53a0c902",
+      "bytes": 4483
     },
     {
       "path": "origin.html",
-      "sha256": "d096a0ca5b5953b89ddfa6e137a7a87f839d0398774a7bba7e199ec5e511b91a",
-      "bytes": 6396
+      "sha256": "389c88bbcc7526381f1e52ac61a9e796dcb091e7122dff18f684a81d9b082d02",
+      "bytes": 6718
     },
     {
       "path": "privacy.html",
-      "sha256": "38178495c9a6aae6cfc4c71e87ad640fa61e885d6757e4b948acd907b659bd26",
-      "bytes": 5233
+      "sha256": "26dd13539702814b7e7a9c97d3b73f31e60df417c9b9e2bdce151a1014982e2f",
+      "bytes": 5555
     },
     {
       "path": "projects.html",
-      "sha256": "48468c4c7fc57bd7daba74a9fd19246440d228d989b363d40a5e40ff371aae73",
-      "bytes": 5903
+      "sha256": "e4479eac0d4be8a3c731aa5b5d72db09f34f3bed7d7f79b5ee1a202350efc36b",
+      "bytes": 6233
     },
     {
       "path": "provenance-manifest-2026.08.14-r4.json",
@@ -166,28 +196,33 @@
     },
     {
       "path": "records.html",
-      "sha256": "490f8a949b7657dc8e3757699daf1b466811d80410af9685067a507abad0164d",
-      "bytes": 5509
+      "sha256": "b32cec0ec3294ed6d0e46740029e6b098d61f2cc63f717e1e0d6fc9f9d21b15b",
+      "bytes": 5831
     },
     {
       "path": "release.html",
-      "sha256": "677686198c95a5c1c28a6a0817d65cb16d51aae3ace2fc132d6df66d168eaa05",
-      "bytes": 6030
+      "sha256": "95e0898d5ef2754d3e73652aee9b11a7f74fd410727aba845d25911d35106c63",
+      "bytes": 6352
     },
     {
       "path": "research-safety.html",
-      "sha256": "b4817aa6e99b2106af6a6170c3bccfccc752523130e7602f7b02d601e5c93d91",
-      "bytes": 14834
+      "sha256": "9a6e4b9ab3d4e5bdd29860e126693269ac37abf77bcaf76a15d4670f31e0afab",
+      "bytes": 15156
     },
     {
       "path": "research.html",
-      "sha256": "eb459d906dd37c8e572d6b894444adbe5a935e176595eb3f5852b8eb72bf3bc3",
-      "bytes": 6103
+      "sha256": "455f28586cfe714b64c5ca1a626fe50287c0023014d673f3dce1ea7b0a7a4b0f",
+      "bytes": 6425
     },
     {
       "path": "robots.txt",
       "sha256": "4b7de7e4e0629016b6e7e07d4c80b51a333a495a07604bb3c011aaaa2687c9d3",
       "bytes": 63
+    },
+    {
+      "path": "site.webmanifest",
+      "sha256": "08e3bce31d97559ddb1b6aedd8834086bdc0b6d6508e1409e24078ad80a13c27",
+      "bytes": 496
     },
     {
       "path": "sitemap.xml",
@@ -196,13 +231,13 @@
     },
     {
       "path": "solicitor-review.html",
-      "sha256": "44331d81a46779afd71ac62b000ed201ff3bad9f9f4a52f02d7f7f43dc422d5f",
-      "bytes": 5837
+      "sha256": "86113c2749f428db0d3c948997ee8284ec932efd86a943b198eb50b140268686",
+      "bytes": 6159
     },
     {
       "path": "studies.html",
-      "sha256": "d98ebd68a8fe3097588063fc3bdd76729cdb742b33b9689ee2c8e71c82868d56",
-      "bytes": 7490
+      "sha256": "a4c86c369baeeee08dda7a6857f1378d0cfd8ccf5f8e3bf550d39f186703ebfb",
+      "bytes": 7812
     },
     {
       "path": "styles.css",
@@ -211,13 +246,13 @@
     },
     {
       "path": "terms.html",
-      "sha256": "b766b669615135c231a9bb66dd3a1aee1819787ca70934cc2f94c6f51f101249",
-      "bytes": 5128
+      "sha256": "dc14907dd6c53c2ba94e901089b26b56c2b7e6ee55bd2a826dacf7037a58d204",
+      "bytes": 5450
     },
     {
       "path": "theory-social-evolution.html",
-      "sha256": "c9e2997df232a870a3b923db2436f14e882a72a1d958c96a5b799804a5bb343e",
-      "bytes": 17100
+      "sha256": "bc4ac0da3b43f8b86227aae287333be5edd8d2baa61b0999f640b71515facb39",
+      "bytes": 17426
     },
     {
       "path": "validate_site.py",
