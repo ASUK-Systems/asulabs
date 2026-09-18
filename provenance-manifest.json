@@ -1,17 +1,27 @@
 {
-  "release": "2026.08.14-r4",
+  "release": "2026.09.18-r1",
   "domain": "https://asulabs.uk",
-  "generated": "2026-08-14",
+  "generated": "2026-09-18",
   "files": [
     {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "f2815e160d573e9c93a717caa292b45eba41b760b6f25c8878975fae099ebb55",
+      "bytes": 300
+    },
+    {
       "path": ".well-known/security.txt",
-      "sha256": "8c2cae8d9e345407a4dd18c2e0e55174aac724b76f704eb9a33b5005a7e5ad0c",
-      "bytes": 161
+      "sha256": "f6d75f74b82c3528eb443d2bb5db0caa8ec5cbc014a19b6658c040f62b3911f9",
+      "bytes": 149
     },
     {
       "path": "404.html",
-      "sha256": "7cb4faa3e4e274689b18dcabcb7459ced9598de6208b49e65823fa4a34ab7926",
-      "bytes": 2382
+      "sha256": "9d9d941fdc191bbfa3641134ffddec0793fb35bea44694b3283b6474db5eb718",
+      "bytes": 2855
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "a7943ce2d9e7b771c425baa6216a5bdf12c0ffad644ed0c94e64575fe4567a46",
+      "bytes": 263
     },
     {
       "path": "CNAME",
@@ -25,13 +35,13 @@
     },
     {
       "path": "VERSION.txt",
-      "sha256": "a8982c9aa268c312712227ebd66360ea7ed6047bf150ddd87406deb4a4730ba0",
-      "bytes": 192
+      "sha256": "9d9a696d42bfb5fd52bd493940937416ddd2d64c723f81452014c7e54050b4b6",
+      "bytes": 116
     },
     {
       "path": "about.html",
-      "sha256": "f4f407a209b526a7a6dd3fd1116b51cbf5369c562cbac9f624c35b044f0bf39d",
-      "bytes": 4573
+      "sha256": "edac8b510699f45e0643bf7bc48b1087f0ef39401122448a66b8732b88ab19c6",
+      "bytes": 5883
     },
     {
       "path": "assets/asu-labs-logo.svg",
@@ -40,88 +50,108 @@
     },
     {
       "path": "assets/favicon.svg",
-      "sha256": "d8ad9e3cce8375caa45d8d66a047823caa9dc6cf3c8f8891ecb054a8cc25055f",
-      "bytes": 372
+      "sha256": "cb5a98abb929498b94c446339a84219535ce83d54100cb4653480034d8893aa3",
+      "bytes": 346
+    },
+    {
+      "path": "assets/social-card.svg",
+      "sha256": "e1c627c61191e585e3cce65ce0970b1f1d3beb3a2a82ff941495f495bced521d",
+      "bytes": 1054
+    },
+    {
+      "path": "asu-igc-001.css",
+      "sha256": "b52fec4f80d25a1128af0f74a4313cc82dc4a93b8cfe7a6341f56260159e1873",
+      "bytes": 2796
     },
     {
       "path": "confidentiality.html",
-      "sha256": "8070024d4bd0ba6ecd9dd1f4339035a37cce28590eeb03deea16b8f1a5bc398c",
-      "bytes": 4099
+      "sha256": "8ef1591ecda025f52ba6ead0abb8dc47a6487e5066793f1f7a6ab8c28ce19b8e",
+      "bytes": 5415
     },
     {
       "path": "contact.html",
-      "sha256": "7afbc6ffc8a09ed8b7076db1010000aca61f003d476271bd3a46c5aaff777f71",
-      "bytes": 4324
+      "sha256": "cd056d2af95f5ef5b62793446ca5e681d608a1b64fe81038236b4892989d05f2",
+      "bytes": 5617
+    },
+    {
+      "path": "controlled-register.html",
+      "sha256": "4a4ad9b8db5844d5ce1d2b767b8181237a64245613bd716b6c02685ea46d16d1",
+      "bytes": 3218
     },
     {
       "path": "corrections.html",
-      "sha256": "88a2606c63fb037e1af2fadb8eb78760140cb53636f819e120549dacf66acf57",
-      "bytes": 3660
+      "sha256": "09b30f0be42ff2498f4d4bb754a7e691661b07ae0beeaf5dbb55abb9039cb5b5",
+      "bytes": 4968
     },
     {
       "path": "evidence.html",
-      "sha256": "1e61a99b2ea35570c4ae1a2aefceb1208ad350409d152f2934f7de8e852e3450",
-      "bytes": 5112
+      "sha256": "1cccb19a4da5b5648f2c51f2ebedc605321897ce5d2f2b1a623e364df4b76bdf",
+      "bytes": 6427
     },
     {
       "path": "governance.html",
-      "sha256": "2a4bd61140b20203be1677ae3d7f64892853a78ef20fc4d15b1187f8ab853d37",
-      "bytes": 4880
+      "sha256": "9ff875e7384b8c4163efdd6f9e24ceb3d93f855d41ecb01095a8ff1693d4d3ac",
+      "bytes": 6186
     },
     {
       "path": "independent-study.html",
-      "sha256": "3d7d43ed74c3052f7a87b5a865680a3ecbef7efef5638e9bef27c053a3b9d0f4",
-      "bytes": 11574
+      "sha256": "4c77a6f572c8074dfeeae9cdb91b7bcb06e353554afb56bdf17bf7d3f62d7ac6",
+      "bytes": 13026
     },
     {
       "path": "index.html",
-      "sha256": "cc13c374642f3514e42745d1385a3bd0f2feeb21f849517c871e260b07aa88ba",
-      "bytes": 7354
+      "sha256": "6eb212122f2ee7230881395e848db949c7499afe6f4cd2b06d04955d35e3094a",
+      "bytes": 9365
     },
     {
       "path": "ip-record.html",
-      "sha256": "f06958c954b6da6fc2f3259df789d46daa18fa1e9773b399b7ec2866ac5d017a",
-      "bytes": 5118
+      "sha256": "8d3e61c92a375d6e2fd1ff057073a50e4af6f7c4a08b1c2a94e8e850e1191346",
+      "bytes": 6422
     },
     {
       "path": "legal-notice.html",
-      "sha256": "cf1018d3d97bef1e3f67cfc0581c9c77c4d62ed93807340895d6ff0e496a8078",
-      "bytes": 5567
+      "sha256": "14cfb77ff89c8fb1fc865f52de44c30253d1b2e377a3c5afa37ecfe8e18da622",
+      "bytes": 6877
     },
     {
       "path": "origin.html",
-      "sha256": "10196295f40225fffb872c1a629616034c320cd87b88cf7c2be4e3e7530b4c74",
-      "bytes": 5088
+      "sha256": "d096a0ca5b5953b89ddfa6e137a7a87f839d0398774a7bba7e199ec5e511b91a",
+      "bytes": 6396
     },
     {
       "path": "privacy.html",
-      "sha256": "e433486c85bc6b03c8f5aac9c34ea20efcd84acf5dc0b63a8dad8caed6f986ad",
-      "bytes": 3933
+      "sha256": "38178495c9a6aae6cfc4c71e87ad640fa61e885d6757e4b948acd907b659bd26",
+      "bytes": 5233
     },
     {
       "path": "projects.html",
-      "sha256": "a05b55655b775dcfb95da861820d36492823070b7337e394e72ae90f85f140c9",
-      "bytes": 4262
+      "sha256": "48468c4c7fc57bd7daba74a9fd19246440d228d989b363d40a5e40ff371aae73",
+      "bytes": 5903
+    },
+    {
+      "path": "provenance-manifest-2026.08.14-r4.json",
+      "sha256": "608a3289fbb295bb913b58c89c4be31ee17a8cfe86154007f93a69705e93211d",
+      "bytes": 4572
     },
     {
       "path": "records.html",
-      "sha256": "38844581be72d6a1c67cff1342c6f3f5edb98f29c6b72cae67dbe2d8bdc13ca1",
-      "bytes": 3811
+      "sha256": "490f8a949b7657dc8e3757699daf1b466811d80410af9685067a507abad0164d",
+      "bytes": 5509
     },
     {
       "path": "release.html",
-      "sha256": "b7307265f5399a3dfd444e4183f6570ec182d70169a46dab3d08c56f5fdbd4e1",
-      "bytes": 3856
+      "sha256": "4eed5daf88ae875901ca7293e3909e268e69abeb9b8aeccf6817c730263aef5d",
+      "bytes": 5962
     },
     {
       "path": "research-safety.html",
-      "sha256": "b1c1963ce866ad91337fbb0e1a6072006f24a7f3a28b15be03311a23c4e4b86b",
-      "bytes": 13451
+      "sha256": "b4817aa6e99b2106af6a6170c3bccfccc752523130e7602f7b02d601e5c93d91",
+      "bytes": 14834
     },
     {
       "path": "research.html",
-      "sha256": "4f31203aed05efd289f8ba167febf8e08faaee7bb1a0a5f930b4cfa2371573b4",
-      "bytes": 4421
+      "sha256": "eb459d906dd37c8e572d6b894444adbe5a935e176595eb3f5852b8eb72bf3bc3",
+      "bytes": 6103
     },
     {
       "path": "robots.txt",
@@ -130,28 +160,38 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "9c9e19d1c682b4381c9188d3b150aee942a070762490956badae59ab1e67a2be",
-      "bytes": 1206
+      "sha256": "dd4695858319492acc597ae728b6a414b0b232abdb40a19607a58bc4c6b23e39",
+      "bytes": 2043
     },
     {
       "path": "solicitor-review.html",
-      "sha256": "78936abc0557b29a550d0815a0390bb7ea5f9d763e9268cd888848192427d600",
-      "bytes": 4514
+      "sha256": "44331d81a46779afd71ac62b000ed201ff3bad9f9f4a52f02d7f7f43dc422d5f",
+      "bytes": 5837
     },
     {
       "path": "studies.html",
-      "sha256": "8d8b88b656317a2a74c9bb7e0a161a088b5846b384d0b7e949f8217c9060413a",
-      "bytes": 6229
+      "sha256": "d98ebd68a8fe3097588063fc3bdd76729cdb742b33b9689ee2c8e71c82868d56",
+      "bytes": 7490
     },
     {
       "path": "styles.css",
-      "sha256": "f9a16599a64e80bc76eac634c5be00263e2dc7aef64f076982d6928038979130",
-      "bytes": 7133
+      "sha256": "2b74c417da9867a3e754e1c77c4bb5286e7118ffad952cc9f3e7e6a9086680e3",
+      "bytes": 9425
     },
     {
       "path": "terms.html",
-      "sha256": "054ff20d21716dae52a2e719af835fce2d75ae5f367d41dc5939a969e7030d97",
-      "bytes": 3832
+      "sha256": "b766b669615135c231a9bb66dd3a1aee1819787ca70934cc2f94c6f51f101249",
+      "bytes": 5128
+    },
+    {
+      "path": "theory-social-evolution.html",
+      "sha256": "c9e2997df232a870a3b923db2436f14e882a72a1d958c96a5b799804a5bb343e",
+      "bytes": 17100
+    },
+    {
+      "path": "validate_site.py",
+      "sha256": "af208f1063e98cb5e3b833864c194bf167f7ea6524ba895b793ef21924e12f15",
+      "bytes": 2007
     }
   ]
 }

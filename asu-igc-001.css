@@ -1,0 +1,181 @@
+
+/* ASU-IGC-001 research record additions
+   Designed to sit alongside the existing ASU Labs stylesheet. */
+
+.container {
+  width: min(1180px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+.site-header .container {
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: .9rem;
+  font-size: .82rem;
+  font-weight: 700;
+}
+
+.eyebrow {
+  margin: 0 0 .65rem;
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  opacity: .78;
+}
+
+.hero .lead {
+  max-width: 850px;
+  font-size: 1.12rem;
+  line-height: 1.7;
+}
+
+.record-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin-top: 1.5rem;
+}
+
+.record-meta span,
+.status-badge {
+  display: inline-block;
+  padding: .45rem .7rem;
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 999px;
+  font-size: .78rem;
+}
+
+.section {
+  padding-top: 3.5rem;
+  padding-bottom: .5rem;
+}
+
+.section-heading {
+  margin-bottom: 1.25rem;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.cards-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cards-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.card {
+  height: 100%;
+  padding: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: linear-gradient(180deg, #0c1c2b, #0a1622);
+}
+
+.card-wide {
+  grid-column: 1 / -1;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p:last-child,
+.card ul:last-child,
+.card ol:last-child {
+  margin-bottom: 0;
+}
+
+.research-list {
+  margin: 0;
+  padding-left: 1.35rem;
+}
+
+.research-list li + li {
+  margin-top: .8rem;
+}
+
+.notice {
+  margin-top: 1.25rem;
+  padding: 1rem 1.1rem;
+  border-left: 3px solid currentColor;
+  background: rgba(255,255,255,.035);
+}
+
+.source-note {
+  margin-top: 1rem;
+  font-size: .9rem;
+  opacity: .75;
+}
+
+.linked-card {
+  display: block;
+  text-decoration: none;
+}
+
+.status-line {
+  margin-bottom: 1rem;
+}
+
+.status-badge {
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+
+.record-table-wrap {
+  overflow-x: auto;
+}
+
+.record-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.record-table th,
+.record-table td {
+  padding: .85rem .7rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+@media (max-width: 900px) {
+  .site-header nav { display: none; }
+
+  .cards-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .container { width: min(1180px, calc(100% - 28px)); }
+
+  .content-grid,
+  .cards-2,
+  .cards-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .card-wide {
+    grid-column: auto;
+  }
+
+  .record-meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

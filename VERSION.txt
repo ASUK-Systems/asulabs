@@ -1,5 +1,3 @@
-ASU Labs public website
-Release: 2026.08.14-r4
-Domain: https://asulabs.uk
-Jurisdiction focus: United Kingdom; GB-specific controls identified where applicable
-Status: Final clean public build
+ASU Labs public website release: 2026.09.18-r1
+Preceded by: 2026.08.14-r4
+ASU-IGC-001 integrated: 18 September 2026
