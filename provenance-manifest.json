@@ -1,7 +1,8 @@
 {
-  "release": "2026.09.18-r1",
+  "release": "2026.09.18-r2",
   "domain": "https://asulabs.uk",
   "generated": "2026-09-18",
+  "scope": "Stage III additive public release",
   "files": [
     {
       "path": ".github/workflows/validate.yml",
@@ -20,13 +21,18 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "a7943ce2d9e7b771c425baa6216a5bdf12c0ffad644ed0c94e64575fe4567a46",
-      "bytes": 263
+      "sha256": "2eed5baff9201678f8bf2646b6abac79e9c5488d3a9f3050e6cbc80437998204",
+      "bytes": 526
     },
     {
       "path": "CNAME",
       "sha256": "ec10ed673aa41b1ac7eec4d3dfce86a25f4c3577aae3172483942371e0acc072",
       "bytes": 11
+    },
+    {
+      "path": "README-STAGE-III-PUSH.txt",
+      "sha256": "f6a248c9bb0e566c4771fcb04e06be8f046569c67b7f44e4ab166f0d76cda9f4",
+      "bytes": 874
     },
     {
       "path": "README.md",
@@ -35,8 +41,8 @@
     },
     {
       "path": "VERSION.txt",
-      "sha256": "9d9a696d42bfb5fd52bd493940937416ddd2d64c723f81452014c7e54050b4b6",
-      "bytes": 116
+      "sha256": "236eb7d6c808ee30988cbdcb205243d172eeb81947b70174c4a592e3861a5827",
+      "bytes": 14
     },
     {
       "path": "about.html",
@@ -59,6 +65,11 @@
       "bytes": 1054
     },
     {
+      "path": "asu-igc-001-protocol.html",
+      "sha256": "7258c3729f5769fc3c8cd88d7e3b9efae3c5807717866361b38ebb8ced9f252d",
+      "bytes": 6374
+    },
+    {
       "path": "asu-igc-001.css",
       "sha256": "b52fec4f80d25a1128af0f74a4313cc82dc4a93b8cfe7a6341f56260159e1873",
       "bytes": 2796
@@ -75,8 +86,8 @@
     },
     {
       "path": "controlled-register.html",
-      "sha256": "4a4ad9b8db5844d5ce1d2b767b8181237a64245613bd716b6c02685ea46d16d1",
-      "bytes": 3218
+      "sha256": "737eb39843774b8859a93e8ef6dd0d001f462ea43fa9fc78519aabfa57b0988b",
+      "bytes": 3875
     },
     {
       "path": "corrections.html",
@@ -84,9 +95,24 @@
       "bytes": 4968
     },
     {
+      "path": "downloads/ASU_IGC_001_Research_Protocol.pdf",
+      "sha256": "48014327131889788c8d1f22eb48b7f63025cc0a17191c06123a0f593c764d37",
+      "bytes": 164251
+    },
+    {
+      "path": "evidence-map.html",
+      "sha256": "d8618fceff1a84278af8ea46db26b22ff9672fdd8fa8f42ffde9a8fa7dbce651",
+      "bytes": 4203
+    },
+    {
       "path": "evidence.html",
       "sha256": "1cccb19a4da5b5648f2c51f2ebedc605321897ce5d2f2b1a623e364df4b76bdf",
       "bytes": 6427
+    },
+    {
+      "path": "external-review.html",
+      "sha256": "cef9cf0b2c70416cc9b347a2bc75a60525f552aec4a2af838f185674fac14f1a",
+      "bytes": 3136
     },
     {
       "path": "governance.html",
@@ -100,8 +126,8 @@
     },
     {
       "path": "index.html",
-      "sha256": "6eb212122f2ee7230881395e848db949c7499afe6f4cd2b06d04955d35e3094a",
-      "bytes": 9365
+      "sha256": "6a35027da38048a2e4fd41bb8f11efacfebfce2294f1a4e9a5eaeeeaf4f01c99",
+      "bytes": 9630
     },
     {
       "path": "ip-record.html",
@@ -112,6 +138,11 @@
       "path": "legal-notice.html",
       "sha256": "14cfb77ff89c8fb1fc865f52de44c30253d1b2e377a3c5afa37ecfe8e18da622",
       "bytes": 6877
+    },
+    {
+      "path": "literature-review.html",
+      "sha256": "d96e930f15c172217aee73b485a8f8eac60e544c093bd95ce09185fa139fe28f",
+      "bytes": 4161
     },
     {
       "path": "origin.html",
@@ -140,8 +171,8 @@
     },
     {
       "path": "release.html",
-      "sha256": "4eed5daf88ae875901ca7293e3909e268e69abeb9b8aeccf6817c730263aef5d",
-      "bytes": 5962
+      "sha256": "677686198c95a5c1c28a6a0817d65cb16d51aae3ace2fc132d6df66d168eaa05",
+      "bytes": 6030
     },
     {
       "path": "research-safety.html",
@@ -160,8 +191,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "dd4695858319492acc597ae728b6a414b0b232abdb40a19607a58bc4c6b23e39",
-      "bytes": 2043
+      "sha256": "e500217dfb70133ea5cf6609bf5b84de567c84bbed124626ad35bce025d5df72",
+      "bytes": 2419
     },
     {
       "path": "solicitor-review.html",
