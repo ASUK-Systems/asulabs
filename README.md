@@ -4,7 +4,7 @@ Release: **2026.08.14-r4**
 
 Canonical public domain: **https://asulabs.uk**
 
-This package is a static GitHub Pages-ready public research and documentation hub for ASU LTD / ASU Labs.
+This package is a provider-neutral static public research and documentation hub for ASU LTD / ASU Labs.
 
 ## Included
 - research, studies, evidence and provenance framework
@@ -26,4 +26,4 @@ For higher-risk work, the operator should establish the applicable law, material
 Do not rely on public publication as a substitute for confidentiality or IP protection. Potentially patentable material should be reviewed before public disclosure. See the UK IPO links on the IP record page.
 
 ## Deployment
-Upload the contents of this directory to a new GitHub repository and configure GitHub Pages for the repository. The root `CNAME` is `asulabs.uk`.
+Deploy the contents of this directory to the configured static-hosting root. The root `CNAME` is `asulabs.uk`.

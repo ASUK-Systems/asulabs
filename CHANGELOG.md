@@ -1,4 +1,5 @@
 # Phase 3 aligned release
+- Corrective privacy/identity pass: made hosting/deployment language provider-neutral and aligned the public security contact with ASU Labs.
 
 ## 2026.09.18-r3
 

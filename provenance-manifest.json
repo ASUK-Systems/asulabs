@@ -3,17 +3,12 @@
   "phase": "Phase 3",
   "domain": "https://asulabs.uk",
   "generated": "2026-09-18",
-  "scope": "Complete Phase 3 additive website release",
+  "scope": "Complete Phase 3 additive website release with corrective privacy/identity pass",
   "files": [
     {
-      "path": ".github/workflows/validate.yml",
-      "sha256": "f2815e160d573e9c93a717caa292b45eba41b760b6f25c8878975fae099ebb55",
-      "bytes": 300
-    },
-    {
       "path": ".well-known/security.txt",
-      "sha256": "f6d75f74b82c3528eb443d2bb5db0caa8ec5cbc014a19b6658c040f62b3911f9",
-      "bytes": 149
+      "sha256": "aef852ab52449c4cd466f63aa3e584aed9f2d13b6d640a5a425540358da07abb",
+      "bytes": 143
     },
     {
       "path": "404.html",
@@ -22,8 +17,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "68b3135bb2d98febc3a9f34a68879d59591acf0720173b0287721479e0078bbd",
-      "bytes": 865
+      "sha256": "3923488e50c4efff09471f5b2a4762af473da9346a12a291e639808a77addd5b",
+      "bytes": 1006
     },
     {
       "path": "CNAME",
@@ -32,13 +27,13 @@
     },
     {
       "path": "README-PHASE-3-PUSH.txt",
-      "sha256": "b206a882a144bfbea77ea0db46a79db363e1d9f53927cb422196653aef7703a3",
-      "bytes": 870
+      "sha256": "85deee46460fc02e2bb667bc5c9680891fa8075717c1c479fff9480b3bb19378",
+      "bytes": 896
     },
     {
       "path": "README.md",
-      "sha256": "e6c01bcee3bbab4a637b9da4349ed81c42bd671a19804e6722f60f2fb5fae8d6",
-      "bytes": 1618
+      "sha256": "6d60cba2a66f324849b68aefea4a0d5b08e3a86085e0514ce1b6fe60935429bf",
+      "bytes": 1581
     },
     {
       "path": "VERSION.txt",
@@ -92,8 +87,8 @@
     },
     {
       "path": "confidentiality.html",
-      "sha256": "3004fde12222f130f3bfe37c186b62c97df023d9cd32051b20a582bae8bfca42",
-      "bytes": 5737
+      "sha256": "45193974c7ab2dd138caf85e9bc8e063bfa6fe7db143d656923c018f49e6dc18",
+      "bytes": 5746
     },
     {
       "path": "contact.html",
@@ -122,8 +117,8 @@
     },
     {
       "path": "evidence.html",
-      "sha256": "eb0bfc3a21bd3e0c1ebe9dadf081177e5c231eaff3b55e159e421e4221ae34ac",
-      "bytes": 6749
+      "sha256": "79148825a060c41177bd75d2102e300806456bd67d704e79cb3fedcd9f576181",
+      "bytes": 6783
     },
     {
       "path": "external-review.html",
@@ -202,8 +197,8 @@
     },
     {
       "path": "release.html",
-      "sha256": "b5e13cae8c84c5c976716e6e7030d9ac7fd915ed8efea3ec1b2a945e34ebb67c",
-      "bytes": 6350
+      "sha256": "de161caaab1066640921870cd3392829953593f02db918b59ff9953e5ad13ce8",
+      "bytes": 6356
     },
     {
       "path": "research-safety.html",
@@ -232,8 +227,8 @@
     },
     {
       "path": "solicitor-review.html",
-      "sha256": "74662ec5c4451844c21f570326fe96e7863099bbc19dd014727dcbf989e79a08",
-      "bytes": 6159
+      "sha256": "b33586ba08cd6937a21d99c7b805a1e1fef194ff0c0690c13d1849fe29e2b3c4",
+      "bytes": 6168
     },
     {
       "path": "studies.html",
