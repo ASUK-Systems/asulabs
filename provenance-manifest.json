@@ -1,8 +1,9 @@
 {
   "release": "2026.09.18-r3",
+  "phase": "Phase 3",
   "domain": "https://asulabs.uk",
   "generated": "2026-09-18",
-  "scope": "Complete additive website release with corrected domain and browser icon set",
+  "scope": "Complete Phase 3 additive website release",
   "files": [
     {
       "path": ".github/workflows/validate.yml",
@@ -16,13 +17,13 @@
     },
     {
       "path": "404.html",
-      "sha256": "b717b72d1568afa4fa31158694d6ddffca8395092750b657e2f238136796f396",
+      "sha256": "ca824c7fd7b22e6b44a5f8ef14d75a430cff8cfc709b6966ea22cabb982079db",
       "bytes": 3173
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "2eed5baff9201678f8bf2646b6abac79e9c5488d3a9f3050e6cbc80437998204",
-      "bytes": 526
+      "sha256": "68b3135bb2d98febc3a9f34a68879d59591acf0720173b0287721479e0078bbd",
+      "bytes": 865
     },
     {
       "path": "CNAME",
@@ -30,9 +31,9 @@
       "bytes": 11
     },
     {
-      "path": "README-STAGE-III-PUSH.txt",
-      "sha256": "f6a248c9bb0e566c4771fcb04e06be8f046569c67b7f44e4ab166f0d76cda9f4",
-      "bytes": 874
+      "path": "README-PHASE-3-PUSH.txt",
+      "sha256": "b206a882a144bfbea77ea0db46a79db363e1d9f53927cb422196653aef7703a3",
+      "bytes": 870
     },
     {
       "path": "README.md",
@@ -41,12 +42,12 @@
     },
     {
       "path": "VERSION.txt",
-      "sha256": "236eb7d6c808ee30988cbdcb205243d172eeb81947b70174c4a592e3861a5827",
+      "sha256": "92ef0bfb5cfa8aae15740da9e49cbae21e9a0de49be7f884e8e2e85ef47804a0",
       "bytes": 14
     },
     {
       "path": "about.html",
-      "sha256": "580355f98711d74863e1ba38ec6304e23f7161fb2054cc3ef0ef32941048e904",
+      "sha256": "16031bf1b8003bc3c25fee69c45dcceca9cfb2556084a6aade1c4c0614d7f932",
       "bytes": 6205
     },
     {
@@ -81,8 +82,8 @@
     },
     {
       "path": "asu-igc-001-protocol.html",
-      "sha256": "618df95400f0109af9756e1b334d0ee065a3de41ff5d97f4bc5f71a4cb8eb503",
-      "bytes": 6696
+      "sha256": "18c34938dddea762edf7a3dbb5aeeac0a6579bb5d179a7282dd7746498a0604f",
+      "bytes": 6694
     },
     {
       "path": "asu-igc-001.css",
@@ -91,22 +92,22 @@
     },
     {
       "path": "confidentiality.html",
-      "sha256": "b200e2630b05b32ee7258d67baacefaf61d5110b146bf89397adbee957ebe60d",
+      "sha256": "3004fde12222f130f3bfe37c186b62c97df023d9cd32051b20a582bae8bfca42",
       "bytes": 5737
     },
     {
       "path": "contact.html",
-      "sha256": "c1ec063d044e19c7fc0b3fb39b7fb865531887f49ee1049d758dbbfedd147f80",
+      "sha256": "72e26cb89c763c54a5a0144392af37d818e961daaa0ff9a5c0ed4e2c8a250033",
       "bytes": 5939
     },
     {
       "path": "controlled-register.html",
-      "sha256": "4ff89ebd29c53143f5dc888bdc217af52a1fc96a868b5e78915e1e739e365e1d",
+      "sha256": "958116b07aeab803c234b102616e01071728b8a5d003cbfc661af25decba97c9",
       "bytes": 4197
     },
     {
       "path": "corrections.html",
-      "sha256": "057bc1f5d25d38a2365b40db2bb6ed6417a44e20097e697a530ac8173f354ab4",
+      "sha256": "46b711c73161394885e733d7a5aa1ac51c0ab8089ffab656be85f561a92fcd02",
       "bytes": 5290
     },
     {
@@ -121,7 +122,7 @@
     },
     {
       "path": "evidence.html",
-      "sha256": "650c7d1505a21027baf536d40db835a18f89df8d3ada2e21e7d3428df8226b01",
+      "sha256": "eb0bfc3a21bd3e0c1ebe9dadf081177e5c231eaff3b55e159e421e4221ae34ac",
       "bytes": 6749
     },
     {
@@ -146,27 +147,27 @@
     },
     {
       "path": "governance.html",
-      "sha256": "66c1e8576b701112ec0bf71b6faea60b23d35a4e61a375d8faa2e4f9660969ac",
+      "sha256": "e77b3b98da0bef17ef2f3a7f031f63d40b94975fd37883f57d9f868ab9c1dd07",
       "bytes": 6508
     },
     {
       "path": "independent-study.html",
-      "sha256": "0d51f91dc67cba434d6436bad9492dcebeb84ac4fd235a0a73115ea1ae2518c0",
+      "sha256": "84a04589cad74831f6da139918a93e3cf415ee3ff497a35fd9e5605509ecfa09",
       "bytes": 13348
     },
     {
       "path": "index.html",
-      "sha256": "c9684656c1ffd15d53f55dc9fb0c401cb68c7eb4a1a2f1d2e5e4583736167829",
+      "sha256": "91f5653b506518ca44100f747a1d1f0972cf5d97e4e3c84c02bbbe02ff66b105",
       "bytes": 9956
     },
     {
       "path": "ip-record.html",
-      "sha256": "e61e38d3ecac07b491332fb8a983d5868cb1c6f96253580e02d53379ce41b6e8",
+      "sha256": "903167e6cdbe6387ff1e9ad1e3636736c4a134c2f25cc95c6d5d87821066e57b",
       "bytes": 6744
     },
     {
       "path": "legal-notice.html",
-      "sha256": "6e6c9fd9f3729e9e87f94a20c3fe02bfeb58304795ac220e2f76f371e17093ac",
+      "sha256": "c1a9133763f1348afb5a208eb5e141b61e4cf4a5b2774b848a0fcd8bd2d7a383",
       "bytes": 7199
     },
     {
@@ -176,17 +177,17 @@
     },
     {
       "path": "origin.html",
-      "sha256": "389c88bbcc7526381f1e52ac61a9e796dcb091e7122dff18f684a81d9b082d02",
+      "sha256": "fec1e43a9f138115853e04cf606a6d95a5f16f6ffba7894898f11e2ffa27f5cf",
       "bytes": 6718
     },
     {
       "path": "privacy.html",
-      "sha256": "26dd13539702814b7e7a9c97d3b73f31e60df417c9b9e2bdce151a1014982e2f",
+      "sha256": "dd8752f10666a1540d8faad788d0c38b59f82c8586155a474f96b32534a458b6",
       "bytes": 5555
     },
     {
       "path": "projects.html",
-      "sha256": "e4479eac0d4be8a3c731aa5b5d72db09f34f3bed7d7f79b5ee1a202350efc36b",
+      "sha256": "808c012b5af4f3be33d277f3f416ec78f226941dd3a913c1bc7ad8033933fc13",
       "bytes": 6233
     },
     {
@@ -196,22 +197,22 @@
     },
     {
       "path": "records.html",
-      "sha256": "b32cec0ec3294ed6d0e46740029e6b098d61f2cc63f717e1e0d6fc9f9d21b15b",
+      "sha256": "9caee29bf4cd9b476ef12b4154b769bc342aa6be1a7bc1a9aa841b2a45dcf5cf",
       "bytes": 5831
     },
     {
       "path": "release.html",
-      "sha256": "95e0898d5ef2754d3e73652aee9b11a7f74fd410727aba845d25911d35106c63",
-      "bytes": 6352
+      "sha256": "b5e13cae8c84c5c976716e6e7030d9ac7fd915ed8efea3ec1b2a945e34ebb67c",
+      "bytes": 6350
     },
     {
       "path": "research-safety.html",
-      "sha256": "9a6e4b9ab3d4e5bdd29860e126693269ac37abf77bcaf76a15d4670f31e0afab",
+      "sha256": "3186170f5b438007a61334e0c2e840746c9a17ad3b98d648b407088339c75223",
       "bytes": 15156
     },
     {
       "path": "research.html",
-      "sha256": "455f28586cfe714b64c5ca1a626fe50287c0023014d673f3dce1ea7b0a7a4b0f",
+      "sha256": "8d904da97ed4e411afbe58449ca8baf28c0fb4690b63adaa1164f75d0f1ae019",
       "bytes": 6425
     },
     {
@@ -231,12 +232,12 @@
     },
     {
       "path": "solicitor-review.html",
-      "sha256": "86113c2749f428db0d3c948997ee8284ec932efd86a943b198eb50b140268686",
+      "sha256": "74662ec5c4451844c21f570326fe96e7863099bbc19dd014727dcbf989e79a08",
       "bytes": 6159
     },
     {
       "path": "studies.html",
-      "sha256": "a4c86c369baeeee08dda7a6857f1378d0cfd8ccf5f8e3bf550d39f186703ebfb",
+      "sha256": "d637f8da203be50b3b2c01ea35be152f82d4d6d8189f1b441a984c8d4275de88",
       "bytes": 7812
     },
     {
@@ -246,7 +247,7 @@
     },
     {
       "path": "terms.html",
-      "sha256": "dc14907dd6c53c2ba94e901089b26b56c2b7e6ee55bd2a826dacf7037a58d204",
+      "sha256": "3f926e2c550d85d476312daec66278d3bbc707d72d5e3c73455a1debd5a403e3",
       "bytes": 5450
     },
     {
